@@ -1,0 +1,8 @@
+pipeline ("Echo Test") {
+    stage "echo" {
+        echo "Hello World"
+    }
+    stage "sh" {
+        sh "ls" "-l"
+    }
+}

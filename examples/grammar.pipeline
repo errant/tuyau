@@ -1,0 +1,9 @@
+pipeline ("test") {
+    timeout: "1"
+    stage "build" {
+        sh "esfdbgf"
+        with edfwfr: "runner" {
+            sh "esfdbgf"
+        }
+    }
+}
